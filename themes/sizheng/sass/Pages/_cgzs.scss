@@ -7,6 +7,8 @@
                     display: flex;
                     justify-content: space-between;
                     .views-col {
+                        width: 30%;
+                        margin-right: 5%;
                         .views-field-title {
                             a {
                                 color: #9e3c3a;
@@ -15,6 +17,9 @@
                                 font-size: 16px;
                             }
                         }
+                    }
+                    .col-3 {
+                        margin-right: 0;
                     }
                 }
             }
@@ -28,6 +33,11 @@
             .view-content {
                 .views-row {
                     display: initial;
+                    .views-col {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    margin-bottom: 0;
                 }
             }
         }

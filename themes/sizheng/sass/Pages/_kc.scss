@@ -1,0 +1,51 @@
+@media all {
+    .path-kc {
+        .view-kecheng {
+            .view-content {
+                .cols-3 {
+                    .views-row {
+                        margin-bottom: 20px;
+                        .views-col {
+                            width: 30%;
+                            margin-right: 5%;
+                            .views-field-title {
+                                a {
+                                    color: #9e3c3a;
+                                    text-decoration: none;
+                                    border: none;
+                                    font-size: 16px;
+                                }
+                            }
+                            .views-field-field-feng-mia {
+                                a {
+                                    text-decoration: none;
+                                    border: none;
+                                }
+                            }
+                        }
+                        .col-3 {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .path-kc {
+        .view-kecheng .view-content {
+            .cols-3 {
+                .views-row {
+                    display: initial;
+                    .views-col {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}

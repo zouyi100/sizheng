@@ -32,8 +32,13 @@
             .views-row {
                 display: flex;
                 justify-content: space-between;
+                margin-bottom: 20px;
                 .views-col {
-                    margin-bottom: 10px;
+                    width: 30%;
+                    margin-right: 5%;
+                    .col-3 {
+                        margin-right: 0%;
+                    }
                     position: relative;
                     .views-field-title {
                         .field-content {
@@ -79,6 +84,12 @@
     .path-xw {
         .view-xinwen {
             .views-row {
+                .views-col {
+                    width: 100%;
+                    margin-right: 0%;
+                    margin-bottom: 10px;
+                }
+                margin-bottom: 0px;
                 display: initial;
             }
         }
