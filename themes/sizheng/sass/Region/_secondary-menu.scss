@@ -1,0 +1,151 @@
+@media all {
+    #header {
+        .section {
+            position: relative;
+        }
+        .layout-container {
+            background-color: #fff;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+    }
+    .region-secondary-menu {
+        height: 25px;
+        background-color: #9e3c3a;
+    }
+    #block-sousuobiaodan-mobile {
+        display: none;
+    }
+    #block-yonghuzhanghucaidan-mobile {
+        display: none;
+    }
+    #block-views-block-shouyecaidan-block-mobile {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .close {
+        display: none !important;
+    }
+    .region-secondary-menu {
+        display: block;
+        position: fixed;
+        z-index: 10000;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.7); 
+        .close-tab {
+            margin-left: 15px;
+            display: block;
+            float: right;
+            width: 22px;
+            height: 16px;
+            position: relative;
+            top: 22px;
+            padding-right: 20px;
+            .close-icon-tab {
+                width: 22px;
+                height: 2px;
+                position: absolute;
+                background: #fff;
+            }
+            .tab-1 {
+                top: 0;
+            }
+            .tab-2 {
+                top: 7px;
+            }
+            .tab-3 {
+                top: 14px;
+            }
+        }
+        #block-pageheader {
+            display: none;
+        }
+        #block-sousuobiaodan-mobile {
+            margin-top: 10px !important;
+            display: block;
+            float: right !important;
+            .js-form-wrapper {
+                padding-top: 0;
+            }
+            .js-form-type-search {
+                display: block;
+                float: left;
+                width: 100px;
+                margin: 0 15px 0 0;
+                .form-search {
+                    height: 15px;
+                    margin: 0;
+                    margin-top: 5px;
+                }
+            }
+            .js-form-submit {
+                margin: 0;
+                background-image: url("../images/search-white.png");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position-x: 0px;
+                background-position-y: 5px;
+            }
+        }
+        #block-yonghuzhanghucaidan-mobile {
+            .content {
+                position: relative;
+            }
+            margin-top: 10px;
+            margin-left: 15px;
+            .menu-toggle {
+                display: block;
+                width: 40px;
+                height: 40px;
+                background: url("../images/person.svg");
+                background-size: 70%;
+                background-position-x: 5px;
+                background-position-y: 7px;
+                color: transparent;
+                overflow: hidden;
+                background-repeat: no-repeat;
+                &:hover + .menu {
+                    display: block;
+                }
+                
+            }
+            .menu {
+                // display: none;
+                // display: block;
+                z-index: 10002;
+                background-color: #aaa;
+                position: absolute;
+                margin-left: 0px;
+                margin-right: 0px;
+                right: -9px;
+                width: 60px;
+                // left: -15px;
+                li {
+                    display: block;
+                    width: 100%;
+                    a {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+            }
+            .menu-toggle--hide {
+                display: none;
+            }
+            display: block;
+            float: right;
+        }
+        #block-views-block-shouyecaidan-block-mobile {
+            display: block;
+            clear: both;
+            float: initial !important;
+            width: 100%;
+            padding: 0 20px;
+            width: auto;
+            // margin-top: 0px !important;
+        }
+    }
+}

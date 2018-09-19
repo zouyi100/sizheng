@@ -1,0 +1,166 @@
+@media all {
+    .block-views-blockxinwen-block-1 {
+        margin-top: 40px;
+        position: relative;
+        .more-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            a {
+                color: #999;
+                border: none;
+                font-size: 14px;
+            }
+        }
+        padding-right: 20px;
+        h2 {
+            font-size: 20px !important;
+            margin-top: 10px;
+            line-height: 20px !important;
+            margin-bottom: 0px !important;
+            background-color: #9e3c3a;
+            display: inline-block;
+            color: #FFF;
+            padding: 10px;
+            /* line-height: 10px; */
+            border-radius: 10px 10px 0 0;
+        }
+        > .content {
+            margin-top: 0 !important;
+            padding-top: 20px;
+            border-top: 1px solid #9e3c3a;
+        }
+        .skin-default {
+            display: flex;
+            flex-flow: row-reverse;
+            justify-content: flex-end;
+            // min-height: 500px;
+            #views_slideshow_cycle_main_xinwen-block_1 {
+                // display: inline-block !important;
+                #views_slideshow_cycle_teaser_section_xinwen-block_1 {
+                    display: block;
+                }
+            }
+        }
+        .views-slideshow-controls-top {
+            width: 50%;
+            padding-left: 10px;
+            box-sizing: border-box;
+            max-width: 310px;
+            .views_slideshow_pager_field_item {
+                .views-content-title a{
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: block;
+                    border: none;
+                    color: black;
+                    line-height: 20px;
+                    font-size: 20px;
+                    line-height: 20px;
+                    display: block;
+                    padding-bottom: 20px;
+                }
+            }
+            // float: right;
+
+            // margin-right: 350px;
+        }
+        .views_slideshow_cycle_main {
+            width: 50%;
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .block-views-blockxinwen-block-mobile {
+        margin-top: -15px;
+        .view {
+            position: relative;
+        }
+        width: 100%;
+        h2 {
+            // z-index: 2000;
+            display: block;
+            text-align: center;
+            font-size: 24px !important;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 15px !important;
+            color: #9e3c3a;
+            // background: -webkit-linear-gradient(left, #9e3c3a 50%, #f343ff 100%);
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
+        }
+        .more-link {
+            position: absolute;
+            top: -55px;
+            width: 100%;
+            height: 40px;
+            a {
+                width: 100%;
+                height: 100%;
+                display: block;
+                color: transparent;
+                border: none;
+            }
+        }
+        .view-content {
+            .views-row {
+                margin-top: -110px;
+                .views-col {
+                    position: relative;
+                    width: 100%;
+                    .views-field {
+                        padding-right: 15px;
+                        position: relative;
+                        top: -135px;
+                        width: 80%;
+                        background-color: #fff;
+                    }
+                    .views-field-field-tupian-450x480- {
+                        position: initial;
+                        top: 0;
+                        width: 100%;
+                        padding-right: 0;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .views-field-title {
+                        padding-top: 15px;
+                        padding-bottom: 0px;
+                        span {
+                            a {
+                                color: #9e3c3a;
+                                font-size: 18px;
+                                border: none;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .views-field-created {
+                        padding-bottom: 0px;
+                        span {
+                            color: #999;
+                            font-size: 12px;
+                            font-weight: 400;
+                            font-family: "Gotham","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
+                        }
+                    }
+                    .views-field-body {
+                        padding-bottom: 15px;
+                        p {
+                            color: #777;
+                            font-size: 13px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .row-1 {
+                margin-top: 0;
+            }
+        }
+    }
+}

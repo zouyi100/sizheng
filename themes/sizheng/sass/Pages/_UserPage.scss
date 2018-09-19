@@ -1,0 +1,114 @@
+@media all {
+    .path-user {
+        background-color: #f0f0f0;
+        .dialog-off-canvas-main-canvas {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            margin-top: -263px;
+            // background: url("")
+        }
+        #main-wrapper {
+            #main {
+                background: url("../images/logo-user.png") no-repeat -15px 50%, 
+                            url("../images/timg.jpeg") no-repeat 50px 0;
+                .region-content {
+                    float: right;
+                    margin: 100px 0;
+                    margin-right: 120px;
+                    width: 380px;
+                    border: 4px solid #9e3c3a;
+                    border-radius: 15px;
+                    position: relative;
+                    #block-sizheng-page-title {
+                        background-color: #9e3c3a;
+                        border-radius: 10px 10px 0 0;
+                        .content {
+                            margin: 0;
+                            h1 {
+                                margin: 0;
+                                padding: 0;
+                                padding-top: 30px;
+                                padding-bottom: 5px;
+                                text-align: center;
+                                font-size: 38px;
+                                color: white;
+                            }
+                        }
+                    }
+                    #block-sizheng-local-tasks {
+                        width: 100%;
+                        position: absolute;
+                        bottom: 0%;
+                        .tabs {
+                            float: right;
+                            margin-right: 15px;
+                            ul {
+                                .is-active {
+                                    display: none;
+                                }
+                                li a {
+                                    background: transparent !important;
+                                    border: none;
+                                    border-right: 1px solid #eee;
+                                    color: #eee;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                    #block-sizheng-content {
+                        padding: 30px;
+                        .content {
+                            margin: 0;
+                            #edit-actions {
+                                margin: 0;
+                                padding: 0;
+                                margin-bottom: 10px;
+                                input {
+                                    width: 100%;
+                                    height: 60px !important;
+                                    font-size: 30px;
+                                    line-height: 30px;
+                                    border-radius: 10px;
+                                    border: 2px solid #940000;
+                                    background: #f39800 !important;
+                                    color: white;
+                                }
+                            }
+                            .js-form-item {
+                                margin-top: 0;
+                                .form-text {
+                                    padding-left: 25px;
+                                    line-height: 40px;
+                                    border-radius: 10px;
+                                }
+                                .form-text:-webkit-autofill {
+                                    -webkit-animation: autofill-fix 1s infinite;
+                                    @-webkit-keyframes autofill-fix {
+                                        from {
+                                            background-color: #eee;
+                                        }
+                                        to {
+                                            background-color: #eee;
+                                        }
+                                    }
+                                }
+                                label {
+                                    display: none;
+                                }
+                                .description {
+                                    display: none;
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .site-footer {
+            display: none;
+        }
+    }
+}

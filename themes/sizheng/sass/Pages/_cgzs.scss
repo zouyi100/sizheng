@@ -1,0 +1,45 @@
+@media all {
+    .path-cgzs {
+        .view-chengguozhanshi {
+            .view-content {
+                .views-row {
+                    margin-bottom: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    .views-col {
+                        .views-field-title {
+                            a {
+                                color: #9e3c3a;
+                                text-decoration: none;
+                                border: none;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .path-cgzs {
+        .view-chengguozhanshi {
+            .view-content {
+                .views-row {
+                    display: initial;
+                }
+            }
+        }
+        .view-display-id-page_1 {
+            margin-bottom: 20px;
+            span {
+                a {
+                    border: none;
+                    color: #9e3c3a;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

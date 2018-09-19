@@ -1,0 +1,86 @@
+@media all {
+    .path-xw {
+        .view-header {
+            .calendar {
+                overflow: hidden;
+                margin-bottom: 15px;
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    // display: block;
+                    li {
+                        border: none;
+                        display: block;
+                        float: left;
+                        margin: 0 1px;
+                        padding: 8px 15px;
+                        background-color: #9e3c3a;
+                        a {
+                            display: block;
+                            width: 35px;
+                            text-align: center;
+                            border: none;
+                            color: white;
+                            font-size: 14px;
+                            font-family: "Gotham","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        .view-content {
+            .views-row {
+                display: flex;
+                justify-content: space-between;
+                .views-col {
+                    margin-bottom: 10px;
+                    position: relative;
+                    .views-field-title {
+                        .field-content {
+                            a {
+                                color: #9e3c3a;
+                                font-size: 16px;
+                                border: none;
+                                // margin-bottom: 10px;
+                            }
+                        }
+                    }
+                    .views-field-created {
+                        box-sizing: border-box;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 60px;
+                        height: 60px;
+                        background-color: #fff;
+                        padding: 0 3px 3px 3px;
+                        .field-content {
+                            border: 1px solid #9e3c3a;
+                            display: block;
+                            width: 100%;
+                            color: #9e3c3a;
+                            height: 100%;
+                            font-size: 13px;
+                            // display: table-cell;
+                            box-sizing: inherit;
+                            padding: 3px;
+                            display: table;
+                            padding: 8px 5px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .path-xw {
+        .view-xinwen {
+            .views-row {
+                display: initial;
+            }
+        }
+    }
+}

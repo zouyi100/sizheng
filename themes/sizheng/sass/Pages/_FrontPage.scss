@@ -1,0 +1,39 @@
+@media all {
+    .path-frontpage {
+        #block-sizheng-page-title {
+            display: none;
+        }
+        .node__content {
+            .layout__region--top {
+                display: none;
+            }
+            .layout__region--first {
+                flex: 0 1 65% !important;
+                max-width: 65%;
+            }
+            .layout__region--second {
+                flex: 0 1 35% !important;
+                max-width: 35%;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .path-frontpage {
+        .node__content {
+            .layout__region--top {
+                display: block;
+            }
+            .layout__region--first {
+                display: none;
+            }
+            .layout__region--second {
+                display: none;
+            }
+        }
+        .breadcrumb {
+            display: none;
+        } 
+    }
+}

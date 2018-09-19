@@ -1,0 +1,30 @@
+@media all {
+    .block-views-blockshouyecaidan-block-1 {
+        float: left !important;
+        width: 52%;
+        // margin-top: 10% !important;
+        .view-content {
+            .views-field-title {
+                font-size: 26px;
+            }
+            .views-col {
+                border-left: solid 4px #9e3c3a;
+                width: 32.5% !important;
+                .views-row {
+                    padding-left: 5px;
+                    .views-field-title {
+                        a {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .block-views-blockshouyecaidan-block-1 {
+        display: none;
+    }
+}

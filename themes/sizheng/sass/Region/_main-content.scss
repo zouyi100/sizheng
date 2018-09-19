@@ -1,0 +1,27 @@
+@media all {
+    #main-wrapper {
+        max-width: 100% !important;
+        background-color: #f0f0f0 !important;
+        #main {  
+            max-width: 1280px;
+            background-color: #fff;
+            margin: 0 auto;
+            .main-content {
+                width: 100% !important;
+            }
+        }
+        
+    }
+    
+}
+
+@media all and (max-width: 768px) {
+    #main-wrapper {
+        #content {
+            > .section {
+                width: 90%;
+                padding: 0 5%;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@media all {
+    .region-header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        color: #000 !important;
+        max-width: 1280px;
+        margin: 0 auto;
+        background-color: #fff;
+        // margin: 0;
+        padding: 0 !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .region-header {
+        padding: 0 !important;
+        width: 90%;
+        background-color: white !important;
+        position: absolute;
+        top: 0;
+        z-index: 1000;
+        margin: 0 5%;
+    }
+}

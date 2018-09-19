@@ -1,0 +1,28 @@
+@media all {
+    #block-sitefooter {
+        float: left;
+        clear: initial;
+        .content {
+            padding: 0;
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    #block-sitefooter {
+        width: 100%;
+        .content {
+            p {
+                text-align: center;
+            }
+        }
+    }
+    .site-footer {
+        padding: 0 !important;
+        padding-top: 5px !important;
+        p {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+}

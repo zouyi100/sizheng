@@ -1,0 +1,18 @@
+@media all {
+    .site-footer {
+        overflow: hidden;
+        background-color: #9e3c3a !important;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .site-footer {
+        .site-footer__bottom {
+            margin: 0;
+            border: none;
+            .region-footer-fifth {
+                margin: 0;
+            }
+        }
+    }
+}

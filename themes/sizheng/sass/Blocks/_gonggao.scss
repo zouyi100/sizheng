@@ -1,0 +1,108 @@
+@media all {
+    .block-views-blockgonggao-block-mobile {
+        display: none;
+    }
+    .block-views-blockgonggao-block-1 {
+        margin-top: 40px;
+        h2 {
+            font-size: 20px !important;
+            margin-top: 10px;
+            line-height: 20px !important;
+            margin-bottom: 0px !important;
+            background-color: #9e3c3a;
+            display: inline-block;
+            color: #FFF;
+            padding: 10px;
+            /* line-height: 10px; */
+            border-radius: 10px 10px 0 0;
+        }
+        .content {
+            padding: 5px;
+            margin-top: 0 !important;
+            padding-top: 20px;
+            border-top: 1px solid #9e3c3a;  
+            .view-content {
+                max-width: 80%;
+                .views-row {
+                    padding-bottom: 5px;
+                    a {
+                        text-decoration: none;
+                        border: none;
+                        color: #444;
+                        display: block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .block-views-blockgonggao-block-mobile {
+        position: relative;
+        display: block;
+        width: 90%;
+        margin: 0 5%;
+        background-color: #fff;
+        z-index: 1000;
+        // padding: 10px;
+        top: -45px;
+        .views-slideshow-controls-bottom {
+            .widget_pager {
+                li {
+                    border: solid 0.5px #9e3c3a;
+                    background: #fff;                    
+                }
+                .active {
+                    background: #9e3c3a;                    
+                }
+            }
+        }
+        .view-content {
+            width: 100%;
+            .skin-default {
+                padding: 20px;
+                padding-top: 0;
+                .views-row {
+                    .views-field-title {
+                        margin-bottom: 10px;
+                        span {
+                            width: 70%;
+                            display: block;
+                            a {
+                                color: black;
+                                font-weight: bold;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    .views-field-body {
+                        p {
+                            font-size: 14px;
+                            color: #777;
+                        }
+                    }
+                    .views-field-view-node {
+                        a {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+        h2 {
+            margin: 0;
+            padding: 20px 20px 0 20px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #9e3c3a;
+        }
+    }
+    .block-views-blockgonggao-block-1 {
+        display: none;
+    }
+}

@@ -1,0 +1,64 @@
+@media all {
+    .menu-mobile {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .menu-mobile {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+        float: right;
+        width: 22px;
+        height: 16px;
+        // position: relative;
+        .menu-icon-tab {
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            background: #9e3c3a;
+        }
+        .tab-1 {
+            top: 0;
+        }
+        .tab-2 {
+            top: 7px;
+        }
+        .tab-3 {
+            top: 14px;
+        }
+    }
+    #block-views-block-shouyecaidan-block-mobile {
+        margin-top: 75px !important;
+        .view-content {
+            .views-col {
+                border: none !important;
+                width: 100% !important;
+                .views-row {
+                    padding-left: 0px;
+                    border-top: 0.5px solid #aaa;
+                }
+                .views-field-title {
+                    font-size: initial;
+                    padding: 10px 0;                    
+                    span {
+                        color: #ddd;
+                        font-size: 16px;
+                        font-weight: 200;
+                        line-height: 1.5;
+                        a {
+                            color: #fff !important;
+                        }
+                    }
+                }
+            }
+            .col-3 {
+                .row-2 {
+                    border-bottom: 1px solid #aaa;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@media all {
+    #block-sizheng-footer {
+        float: right;
+        clear: initial;
+        .content {
+            .menu {
+                .menu-item {
+                    a {
+                        padding: 0;
+                        border: none;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    #block-sizheng-footer {
+        display: none;
+    }    
+}

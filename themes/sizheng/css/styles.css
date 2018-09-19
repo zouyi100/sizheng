@@ -1,0 +1,1350 @@
+@media all {
+  /* line 3, ../sass/Region/_secondary-menu.scss */
+  #header .section {
+    position: relative;
+  }
+  /* line 6, ../sass/Region/_secondary-menu.scss */
+  #header .layout-container {
+    background-color: #fff;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* line 12, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu {
+    height: 25px;
+    background-color: #9e3c3a;
+  }
+
+  /* line 16, ../sass/Region/_secondary-menu.scss */
+  #block-sousuobiaodan-mobile {
+    display: none;
+  }
+
+  /* line 19, ../sass/Region/_secondary-menu.scss */
+  #block-yonghuzhanghucaidan-mobile {
+    display: none;
+  }
+
+  /* line 22, ../sass/Region/_secondary-menu.scss */
+  #block-views-block-shouyecaidan-block-mobile {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 28, ../sass/Region/_secondary-menu.scss */
+  .close {
+    display: none !important;
+  }
+
+  /* line 31, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu {
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  /* line 38, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu .close-tab {
+    margin-left: 15px;
+    display: block;
+    float: right;
+    width: 22px;
+    height: 16px;
+    position: relative;
+    top: 22px;
+    padding-right: 20px;
+  }
+  /* line 47, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu .close-tab .close-icon-tab {
+    width: 22px;
+    height: 2px;
+    position: absolute;
+    background: #fff;
+  }
+  /* line 53, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu .close-tab .tab-1 {
+    top: 0;
+  }
+  /* line 56, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu .close-tab .tab-2 {
+    top: 7px;
+  }
+  /* line 59, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu .close-tab .tab-3 {
+    top: 14px;
+  }
+  /* line 63, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-pageheader {
+    display: none;
+  }
+  /* line 66, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-sousuobiaodan-mobile {
+    margin-top: 10px !important;
+    display: block;
+    float: right !important;
+  }
+  /* line 70, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-sousuobiaodan-mobile .js-form-wrapper {
+    padding-top: 0;
+  }
+  /* line 73, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-sousuobiaodan-mobile .js-form-type-search {
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 0 15px 0 0;
+  }
+  /* line 78, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-sousuobiaodan-mobile .js-form-type-search .form-search {
+    height: 15px;
+    margin: 0;
+    margin-top: 5px;
+  }
+  /* line 84, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-sousuobiaodan-mobile .js-form-submit {
+    margin: 0;
+    background-image: url("../images/search-white.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 5px;
+  }
+  /* line 93, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: block;
+    float: right;
+  }
+  /* line 94, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile .content {
+    position: relative;
+  }
+  /* line 99, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile .menu-toggle {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/person.svg");
+    background-size: 70%;
+    background-position-x: 5px;
+    background-position-y: 7px;
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  /* line 110, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile .menu-toggle:hover + .menu {
+    display: block;
+  }
+  /* line 115, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile .menu {
+    z-index: 10002;
+    background-color: #aaa;
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    right: -9px;
+    width: 60px;
+  }
+  /* line 126, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile .menu li {
+    display: block;
+    width: 100%;
+  }
+  /* line 129, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile .menu li a {
+    display: block;
+    text-align: center;
+  }
+  /* line 135, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-yonghuzhanghucaidan-mobile .menu-toggle--hide {
+    display: none;
+  }
+  /* line 141, ../sass/Region/_secondary-menu.scss */
+  .region-secondary-menu #block-views-block-shouyecaidan-block-mobile {
+    display: block;
+    clear: both;
+    float: initial !important;
+    width: 100%;
+    padding: 0 20px;
+    width: auto;
+  }
+}
+@media all {
+  /* line 2, ../sass/Region/_header.scss */
+  .region-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #000 !important;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 18, ../sass/Region/_header.scss */
+  .region-header {
+    padding: 0 !important;
+    width: 90%;
+    background-color: white !important;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    margin: 0 5%;
+  }
+}
+@media all {
+  /* line 2, ../sass/Region/_main-content.scss */
+  #main-wrapper {
+    max-width: 100% !important;
+    background-color: #f0f0f0 !important;
+  }
+  /* line 5, ../sass/Region/_main-content.scss */
+  #main-wrapper #main {
+    max-width: 1280px;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  /* line 9, ../sass/Region/_main-content.scss */
+  #main-wrapper #main .main-content {
+    width: 100% !important;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 21, ../sass/Region/_main-content.scss */
+  #main-wrapper #content > .section {
+    width: 90%;
+    padding: 0 5%;
+  }
+}
+@media all {
+  /* line 2, ../sass/Region/_footer.scss */
+  .site-footer {
+    overflow: hidden;
+    background-color: #9e3c3a !important;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 10, ../sass/Region/_footer.scss */
+  .site-footer .site-footer__bottom {
+    margin: 0;
+    border: none;
+  }
+  /* line 13, ../sass/Region/_footer.scss */
+  .site-footer .site-footer__bottom .region-footer-fifth {
+    margin: 0;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_sizheng-branding.scss */
+  #block-sizheng-branding {
+    width: 27%;
+    margin: 0;
+  }
+  /* line 6, ../sass/Blocks/_sizheng-branding.scss */
+  #block-sizheng-branding .site-branding__logo img {
+    position: relative;
+    left: -30px;
+  }
+  /* line 11, ../sass/Blocks/_sizheng-branding.scss */
+  #block-sizheng-branding .site-branding__text {
+    display: none !important;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 18, ../sass/Blocks/_sizheng-branding.scss */
+  #block-sizheng-branding {
+    float: left;
+    background-color: white;
+    width: 25%;
+    padding-top: 10px;
+  }
+  /* line 23, ../sass/Blocks/_sizheng-branding.scss */
+  #block-sizheng-branding .site-branding__logo {
+    margin-left: 5px;
+  }
+  /* line 25, ../sass/Blocks/_sizheng-branding.scss */
+  #block-sizheng-branding .site-branding__logo img {
+    position: relative;
+    left: 0px;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_shouyecaidan.scss */
+  .block-views-blockshouyecaidan-block-1 {
+    float: left !important;
+    width: 52%;
+  }
+  /* line 7, ../sass/Blocks/_shouyecaidan.scss */
+  .block-views-blockshouyecaidan-block-1 .view-content .views-field-title {
+    font-size: 26px;
+  }
+  /* line 10, ../sass/Blocks/_shouyecaidan.scss */
+  .block-views-blockshouyecaidan-block-1 .view-content .views-col {
+    border-left: solid 4px #9e3c3a;
+    width: 32.5% !important;
+  }
+  /* line 13, ../sass/Blocks/_shouyecaidan.scss */
+  .block-views-blockshouyecaidan-block-1 .view-content .views-col .views-row {
+    padding-left: 5px;
+  }
+  /* line 16, ../sass/Blocks/_shouyecaidan.scss */
+  .block-views-blockshouyecaidan-block-1 .view-content .views-col .views-row .views-field-title a {
+    color: black;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 27, ../sass/Blocks/_shouyecaidan.scss */
+  .block-views-blockshouyecaidan-block-1 {
+    display: none;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_search-form.scss */
+  .search-block-form {
+    position: absolute;
+    left: 77%;
+    top: 30%;
+    float: left !important;
+    margin: 0 !important;
+  }
+  /* line 10, ../sass/Blocks/_search-form.scss */
+  .search-block-form form .form-type-search {
+    display: none;
+    position: relative;
+    float: right;
+    top: 2px;
+    height: 35px !important;
+  }
+  /* line 17, ../sass/Blocks/_search-form.scss */
+  .search-block-form form .form-type-search .form-search {
+    border-radius: 10px;
+    height: 25px;
+    width: 185px;
+    background-color: #f0f0f0;
+  }
+  /* line 24, ../sass/Blocks/_search-form.scss */
+  .search-block-form form .js-form-wrapper {
+    position: relative;
+    float: left;
+  }
+  /* line 28, ../sass/Blocks/_search-form.scss */
+  .search-block-form form .js-form-wrapper:hover .form-type-search {
+    display: block;
+  }
+  /* line 31, ../sass/Blocks/_search-form.scss */
+  .search-block-form form .js-form-wrapper .js-form-submit {
+    padding: 0px !important;
+    width: 30px;
+    height: 45px;
+    border: none;
+    color: transparent;
+    background: url("../images/search.png");
+    background-position-x: -10px;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 46, ../sass/Blocks/_search-form.scss */
+  .search-block-form {
+    display: none;
+    position: initial;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_account-menu.scss */
+  #block-sizheng-account-menu {
+    margin-left: 10px;
+  }
+  /* line 7, ../sass/Blocks/_account-menu.scss */
+  #block-sizheng-account-menu .menu .menu-item {
+    float: left;
+  }
+  /* line 9, ../sass/Blocks/_account-menu.scss */
+  #block-sizheng-account-menu .menu .menu-item a {
+    color: #000 !important;
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 19, ../sass/Blocks/_account-menu.scss */
+  #block-sizheng-account-menu {
+    display: none;
+  }
+}
+@media all {
+  /* line 3, ../sass/Blocks/_lunbotupian.scss */
+  .block-views-blockshouyelunbotupian-block-1 .view-content {
+    margin-bottom: -35px;
+  }
+  /* line 6, ../sass/Blocks/_lunbotupian.scss */
+  .block-views-blockshouyelunbotupian-block-1 .views-slideshow-controls-bottom {
+    position: relative;
+    top: -45px;
+    z-index: 100;
+  }
+
+  /* line 12, ../sass/Blocks/_lunbotupian.scss */
+  .block-views-blockshouyelunbotupian-block-mobile {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 18, ../sass/Blocks/_lunbotupian.scss */
+  .block-views-blockshouyelunbotupian-block-mobile {
+    display: block;
+  }
+
+  /* line 21, ../sass/Blocks/_lunbotupian.scss */
+  .block-views-blockshouyelunbotupian-block-1 {
+    display: none;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 {
+    margin-top: 40px;
+    position: relative;
+    padding-right: 20px;
+  }
+  /* line 5, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 .more-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  /* line 9, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 .more-link a {
+    color: #999;
+    border: none;
+    font-size: 14px;
+  }
+  /* line 16, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+    line-height: 20px !important;
+    margin-bottom: 0px !important;
+    background-color: #9e3c3a;
+    display: inline-block;
+    color: #FFF;
+    padding: 10px;
+    /* line-height: 10px; */
+    border-radius: 10px 10px 0 0;
+  }
+  /* line 28, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 > .content {
+    margin-top: 0 !important;
+    padding-top: 20px;
+    border-top: 1px solid #9e3c3a;
+  }
+  /* line 33, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 .skin-default {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+  }
+  /* line 40, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 .skin-default #views_slideshow_cycle_main_xinwen-block_1 #views_slideshow_cycle_teaser_section_xinwen-block_1 {
+    display: block;
+  }
+  /* line 45, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 .views-slideshow-controls-top {
+    width: 50%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    max-width: 310px;
+  }
+  /* line 51, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 .views-slideshow-controls-top .views_slideshow_pager_field_item .views-content-title a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    border: none;
+    color: black;
+    line-height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    padding-bottom: 20px;
+  }
+  /* line 69, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-1 .views_slideshow_cycle_main {
+    width: 50%;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 76, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile {
+    margin-top: -15px;
+    width: 100%;
+  }
+  /* line 78, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view {
+    position: relative;
+  }
+  /* line 82, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile h2 {
+    display: block;
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px !important;
+    color: #9e3c3a;
+  }
+  /* line 95, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .more-link {
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    height: 40px;
+  }
+  /* line 100, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .more-link a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: transparent;
+    border: none;
+  }
+  /* line 109, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row {
+    margin-top: -110px;
+  }
+  /* line 111, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col {
+    position: relative;
+    width: 100%;
+  }
+  /* line 114, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field {
+    padding-right: 15px;
+    position: relative;
+    top: -135px;
+    width: 80%;
+    background-color: #fff;
+  }
+  /* line 121, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-field-tupian-450x480- {
+    position: initial;
+    top: 0;
+    width: 100%;
+    padding-right: 0;
+  }
+  /* line 126, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-field-tupian-450x480- img {
+    width: 100%;
+  }
+  /* line 130, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-title {
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+  /* line 134, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-title span a {
+    color: #9e3c3a;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+  }
+  /* line 142, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-created {
+    padding-bottom: 0px;
+  }
+  /* line 144, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-created span {
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Gotham","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
+  }
+  /* line 151, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-body {
+    padding-bottom: 15px;
+  }
+  /* line 153, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-body p {
+    color: #777;
+    font-size: 13px;
+    margin: 0;
+  }
+  /* line 161, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .row-1 {
+    margin-top: 0;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile {
+    display: none;
+  }
+
+  /* line 5, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-1 {
+    margin-top: 40px;
+  }
+  /* line 7, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-1 h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+    line-height: 20px !important;
+    margin-bottom: 0px !important;
+    background-color: #9e3c3a;
+    display: inline-block;
+    color: #FFF;
+    padding: 10px;
+    /* line-height: 10px; */
+    border-radius: 10px 10px 0 0;
+  }
+  /* line 19, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-1 .content {
+    padding: 5px;
+    margin-top: 0 !important;
+    padding-top: 20px;
+    border-top: 1px solid #9e3c3a;
+  }
+  /* line 24, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-1 .content .view-content {
+    max-width: 80%;
+  }
+  /* line 26, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-1 .content .view-content .views-row {
+    padding-bottom: 5px;
+  }
+  /* line 28, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-1 .content .view-content .views-row a {
+    text-decoration: none;
+    border: none;
+    color: #444;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 45, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    background-color: #fff;
+    z-index: 1000;
+    top: -45px;
+  }
+  /* line 56, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .views-slideshow-controls-bottom .widget_pager li {
+    border: solid 0.5px #9e3c3a;
+    background: #fff;
+  }
+  /* line 60, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .views-slideshow-controls-bottom .widget_pager .active {
+    background: #9e3c3a;
+  }
+  /* line 65, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .view-content {
+    width: 100%;
+  }
+  /* line 67, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .view-content .skin-default {
+    padding: 20px;
+    padding-top: 0;
+  }
+  /* line 71, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .view-content .skin-default .views-row .views-field-title {
+    margin-bottom: 10px;
+  }
+  /* line 73, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .view-content .skin-default .views-row .views-field-title span {
+    width: 70%;
+    display: block;
+  }
+  /* line 76, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .view-content .skin-default .views-row .views-field-title span a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  /* line 84, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .view-content .skin-default .views-row .views-field-body p {
+    font-size: 14px;
+    color: #777;
+  }
+  /* line 90, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile .view-content .skin-default .views-row .views-field-view-node a {
+    color: black;
+  }
+  /* line 97, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-mobile h2 {
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #9e3c3a;
+  }
+
+  /* line 105, ../sass/Blocks/_gonggao.scss */
+  .block-views-blockgonggao-block-1 {
+    display: none;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+  }
+  /* line 6, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .more-link {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+  /* line 10, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .more-link a {
+    color: #999;
+    border: none;
+    font-size: 14px;
+  }
+  /* line 16, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+    line-height: 20px !important;
+    margin-bottom: 0px !important;
+    background-color: #9e3c3a;
+    display: inline-block;
+    color: #FFF;
+    padding: 10px;
+    /* line-height: 10px; */
+    border-radius: 10px 10px 0 0;
+  }
+  /* line 28, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .content {
+    margin-top: 0 !important;
+    padding-top: 20px;
+    border-top: 1px solid #9e3c3a;
+  }
+  /* line 35, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row {
+    margin-bottom: 20px;
+  }
+  /* line 38, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .col-1 {
+    width: 31%;
+    margin-right: 3.5%;
+  }
+  /* line 42, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .col-2 {
+    width: 31%;
+    margin-right: 3.5%;
+  }
+  /* line 46, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .col-3 {
+    width: 31%;
+    margin-right: 0px;
+  }
+  /* line 50, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-col {
+    position: relative;
+  }
+  /* line 52, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-col .views-field-title {
+    background-color: #333;
+    opacity: 0.3;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+  }
+  /* line 58, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-col .views-field-title a {
+    font-size: 20px;
+    line-height: 45px;
+    opacity: 1;
+    color: white;
+    border: none;
+    text-align: center;
+    display: block;
+  }
+  /* line 68, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-col .views-field-view-node {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 78, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 {
+    margin-top: -10px;
+  }
+  /* line 79, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view {
+    position: relative;
+  }
+  /* line 83, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 h2 {
+    line-height: 1.4 !important;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: bold;
+    margin-top: -100px;
+    margin-bottom: 15px !important;
+    color: #9e3c3a;
+    border-radius: none;
+    background-color: transparent;
+    border: none;
+  }
+  /* line 101, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .content {
+    border: none;
+    padding-top: 0;
+  }
+  /* line 105, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .more-link {
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    height: 40px;
+  }
+  /* line 110, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .more-link a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: transparent;
+    border: none;
+  }
+  /* line 119, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row {
+    margin-top: -60px;
+    margin-bottom: 0px;
+  }
+  /* line 122, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: -60px;
+  }
+  /* line 127, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field {
+    position: relative;
+    top: -60px;
+    width: 80%;
+    background-color: #fff;
+    padding-right: 20px;
+  }
+  /* line 134, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-field-tupian-450x250- {
+    width: initial;
+    top: 0;
+    position: initial;
+    padding-right: 0;
+  }
+  /* line 140, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-title {
+    background-image: url(../images/more.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 6px;
+    background-size: 10%;
+    left: -80%;
+    transition: left 1s;
+    padding-top: 10px;
+    width: 80%;
+    opacity: 1;
+    height: 21px;
+    padding-bottom: 10px;
+  }
+  /* line 155, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-title span {
+    display: none;
+  }
+  /* line 157, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-title span a {
+    text-align: left;
+    color: #9e3c3a;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: initial;
+  }
+  /* line 166, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-title.active {
+    left: 0%;
+    transition: left 1s;
+  }
+  /* line 169, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-title.active span {
+    display: block;
+  }
+  /* line 173, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-view-node {
+    width: 80%;
+    display: block;
+    padding-bottom: 1px;
+  }
+  /* line 177, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .views-col .views-field-view-node a {
+    color: black;
+    border: none;
+    font-size: 14px;
+  }
+  /* line 184, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .views-row .col-1 {
+    margin-top: 0;
+  }
+  /* line 188, ../sass/Blocks/_chengguozhanshi.scss */
+  .block-views-blockchengguozhanshi-block-1 .view-content .row-1 {
+    margin-top: 0;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_copyright.scss */
+  #block-sitefooter {
+    float: left;
+    clear: initial;
+  }
+  /* line 5, ../sass/Blocks/_copyright.scss */
+  #block-sitefooter .content {
+    padding: 0;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 12, ../sass/Blocks/_copyright.scss */
+  #block-sitefooter {
+    width: 100%;
+  }
+  /* line 15, ../sass/Blocks/_copyright.scss */
+  #block-sitefooter .content p {
+    text-align: center;
+  }
+
+  /* line 20, ../sass/Blocks/_copyright.scss */
+  .site-footer {
+    padding: 0 !important;
+    padding-top: 5px !important;
+  }
+  /* line 23, ../sass/Blocks/_copyright.scss */
+  .site-footer p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_footer-menu.scss */
+  #block-sizheng-footer {
+    float: right;
+    clear: initial;
+  }
+  /* line 8, ../sass/Blocks/_footer-menu.scss */
+  #block-sizheng-footer .content .menu .menu-item a {
+    padding: 0;
+    border: none;
+    line-height: 20px;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 20, ../sass/Blocks/_footer-menu.scss */
+  #block-sizheng-footer {
+    display: none;
+  }
+}
+@media all {
+  /* line 2, ../sass/Blocks/_menu-mobile.scss */
+  .menu-mobile {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 8, ../sass/Blocks/_menu-mobile.scss */
+  .menu-mobile {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    float: right;
+    width: 22px;
+    height: 16px;
+  }
+  /* line 17, ../sass/Blocks/_menu-mobile.scss */
+  .menu-mobile .menu-icon-tab {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: #9e3c3a;
+  }
+  /* line 23, ../sass/Blocks/_menu-mobile.scss */
+  .menu-mobile .tab-1 {
+    top: 0;
+  }
+  /* line 26, ../sass/Blocks/_menu-mobile.scss */
+  .menu-mobile .tab-2 {
+    top: 7px;
+  }
+  /* line 29, ../sass/Blocks/_menu-mobile.scss */
+  .menu-mobile .tab-3 {
+    top: 14px;
+  }
+
+  /* line 33, ../sass/Blocks/_menu-mobile.scss */
+  #block-views-block-shouyecaidan-block-mobile {
+    margin-top: 75px !important;
+  }
+  /* line 36, ../sass/Blocks/_menu-mobile.scss */
+  #block-views-block-shouyecaidan-block-mobile .view-content .views-col {
+    border: none !important;
+    width: 100% !important;
+  }
+  /* line 39, ../sass/Blocks/_menu-mobile.scss */
+  #block-views-block-shouyecaidan-block-mobile .view-content .views-col .views-row {
+    padding-left: 0px;
+    border-top: 0.5px solid #aaa;
+  }
+  /* line 43, ../sass/Blocks/_menu-mobile.scss */
+  #block-views-block-shouyecaidan-block-mobile .view-content .views-col .views-field-title {
+    font-size: initial;
+    padding: 10px 0;
+  }
+  /* line 46, ../sass/Blocks/_menu-mobile.scss */
+  #block-views-block-shouyecaidan-block-mobile .view-content .views-col .views-field-title span {
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+  /* line 51, ../sass/Blocks/_menu-mobile.scss */
+  #block-views-block-shouyecaidan-block-mobile .view-content .views-col .views-field-title span a {
+    color: #fff !important;
+  }
+  /* line 58, ../sass/Blocks/_menu-mobile.scss */
+  #block-views-block-shouyecaidan-block-mobile .view-content .col-3 .row-2 {
+    border-bottom: 1px solid #aaa;
+  }
+}
+/* line 2, ../sass/Blocks/_block-pager.scss */
+.view .pager {
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+/* line 6, ../sass/Blocks/_block-pager.scss */
+.view .pager ul {
+  box-sizing: inherit;
+}
+/* line 8, ../sass/Blocks/_block-pager.scss */
+.view .pager ul .pager__item {
+  display: block;
+  margin: 2px;
+  float: left;
+  box-sizing: inherit;
+  border: 1px solid #ccc;
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+}
+/* line 17, ../sass/Blocks/_block-pager.scss */
+.view .pager ul .pager__item a {
+  border: none;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  color: black;
+}
+/* line 25, ../sass/Blocks/_block-pager.scss */
+.view .pager ul .is-active {
+  background-color: #9e3c3a;
+}
+/* line 27, ../sass/Blocks/_block-pager.scss */
+.view .pager ul .is-active a {
+  color: white;
+}
+
+@media all {
+  /* line 3, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage #block-sizheng-page-title {
+    display: none;
+  }
+  /* line 7, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage .node__content .layout__region--top {
+    display: none;
+  }
+  /* line 10, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage .node__content .layout__region--first {
+    flex: 0 1 65% !important;
+    max-width: 65%;
+  }
+  /* line 14, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage .node__content .layout__region--second {
+    flex: 0 1 35% !important;
+    max-width: 35%;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 25, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage .node__content .layout__region--top {
+    display: block;
+  }
+  /* line 28, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage .node__content .layout__region--first {
+    display: none;
+  }
+  /* line 31, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage .node__content .layout__region--second {
+    display: none;
+  }
+  /* line 35, ../sass/Pages/_FrontPage.scss */
+  .path-frontpage .breadcrumb {
+    display: none;
+  }
+}
+@media all {
+  /* line 2, ../sass/Pages/_UserPage.scss */
+  .path-user {
+    background-color: #f0f0f0;
+  }
+  /* line 4, ../sass/Pages/_UserPage.scss */
+  .path-user .dialog-off-canvas-main-canvas {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -263px;
+  }
+  /* line 12, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main {
+    background: url("../images/logo-user.png") no-repeat -15px 50%, url("../images/timg.jpeg") no-repeat 50px 0;
+  }
+  /* line 15, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content {
+    float: right;
+    margin: 100px 0;
+    margin-right: 120px;
+    width: 380px;
+    border: 4px solid #9e3c3a;
+    border-radius: 15px;
+    position: relative;
+  }
+  /* line 23, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-page-title {
+    background-color: #9e3c3a;
+    border-radius: 10px 10px 0 0;
+  }
+  /* line 26, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-page-title .content {
+    margin: 0;
+  }
+  /* line 28, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-page-title .content h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+  }
+  /* line 39, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-local-tasks {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+  }
+  /* line 43, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-local-tasks .tabs {
+    float: right;
+    margin-right: 15px;
+  }
+  /* line 47, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-local-tasks .tabs ul .is-active {
+    display: none;
+  }
+  /* line 50, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-local-tasks .tabs ul li a {
+    background: transparent !important;
+    border: none;
+    border-right: 1px solid #eee;
+    color: #eee;
+    font-size: 18px;
+  }
+  /* line 60, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content {
+    padding: 30px;
+  }
+  /* line 62, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content {
+    margin: 0;
+  }
+  /* line 64, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content #edit-actions {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  /* line 68, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content #edit-actions input {
+    width: 100%;
+    height: 60px !important;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 2px solid #940000;
+    background: #f39800 !important;
+    color: white;
+  }
+  /* line 79, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content .js-form-item {
+    margin-top: 0;
+  }
+  /* line 81, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content .js-form-item .form-text {
+    padding-left: 25px;
+    line-height: 40px;
+    border-radius: 10px;
+  }
+  /* line 86, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content .js-form-item .form-text:-webkit-autofill {
+    -webkit-animation: autofill-fix 1s infinite;
+  }
+  @-webkit-keyframes autofill-fix {
+    from {
+      background-color: #eee;
+    }
+    to {
+      background-color: #eee;
+    }
+  }
+  /* line 97, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content .js-form-item label {
+    display: none;
+  }
+  /* line 100, ../sass/Pages/_UserPage.scss */
+  .path-user #main-wrapper #main .region-content #block-sizheng-content .content .js-form-item .description {
+    display: none;
+  }
+  /* line 110, ../sass/Pages/_UserPage.scss */
+  .path-user .site-footer {
+    display: none;
+  }
+}
+@media all {
+  /* line 4, ../sass/Pages/_xw.scss */
+  .path-xw .view-header .calendar {
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  /* line 7, ../sass/Pages/_xw.scss */
+  .path-xw .view-header .calendar ul {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 11, ../sass/Pages/_xw.scss */
+  .path-xw .view-header .calendar ul li {
+    border: none;
+    display: block;
+    float: left;
+    margin: 0 1px;
+    padding: 8px 15px;
+    background-color: #9e3c3a;
+  }
+  /* line 18, ../sass/Pages/_xw.scss */
+  .path-xw .view-header .calendar ul li a {
+    display: block;
+    width: 35px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Gotham","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
+  }
+  /* line 32, ../sass/Pages/_xw.scss */
+  .path-xw .view-content .views-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 35, ../sass/Pages/_xw.scss */
+  .path-xw .view-content .views-row .views-col {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  /* line 40, ../sass/Pages/_xw.scss */
+  .path-xw .view-content .views-row .views-col .views-field-title .field-content a {
+    color: #9e3c3a;
+    font-size: 16px;
+    border: none;
+  }
+  /* line 48, ../sass/Pages/_xw.scss */
+  .path-xw .view-content .views-row .views-col .views-field-created {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    padding: 0 3px 3px 3px;
+  }
+  /* line 57, ../sass/Pages/_xw.scss */
+  .path-xw .view-content .views-row .views-col .views-field-created .field-content {
+    border: 1px solid #9e3c3a;
+    display: block;
+    width: 100%;
+    color: #9e3c3a;
+    height: 100%;
+    font-size: 13px;
+    box-sizing: inherit;
+    padding: 3px;
+    display: table;
+    padding: 8px 5px;
+    text-align: center;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 81, ../sass/Pages/_xw.scss */
+  .path-xw .view-xinwen .views-row {
+    display: initial;
+  }
+}
+@media all {
+  /* line 5, ../sass/Pages/_cgzs.scss */
+  .path-cgzs .view-chengguozhanshi .view-content .views-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 11, ../sass/Pages/_cgzs.scss */
+  .path-cgzs .view-chengguozhanshi .view-content .views-row .views-col .views-field-title a {
+    color: #9e3c3a;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 29, ../sass/Pages/_cgzs.scss */
+  .path-cgzs .view-chengguozhanshi .view-content .views-row {
+    display: initial;
+  }
+  /* line 34, ../sass/Pages/_cgzs.scss */
+  .path-cgzs .view-display-id-page_1 {
+    margin-bottom: 20px;
+  }
+  /* line 37, ../sass/Pages/_cgzs.scss */
+  .path-cgzs .view-display-id-page_1 span a {
+    border: none;
+    color: #9e3c3a;
+    font-size: 14px;
+  }
+}

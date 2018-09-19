@@ -1,0 +1,33 @@
+.view {
+    .pager {
+        margin-bottom: 15px;
+        overflow: hidden;
+        box-sizing: border-box;
+        ul {
+            box-sizing: inherit;
+            .pager__item {
+                display: block;
+                margin: 2px;
+                float: left;
+                box-sizing: inherit;
+                border: 1px solid #ccc;
+                width: 35px;
+                height: 35px;
+                padding: 0px;
+                a {
+                    border: none;
+                    text-align: center;
+                    display: block;
+                    line-height: 35px;
+                    color: black;
+                }
+            }
+            .is-active {
+                background-color: #9e3c3a;
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
