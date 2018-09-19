@@ -30,15 +30,12 @@
         }
         .view-content {
             .views-row {
-                display: flex;
-                justify-content: space-between;
+                
                 margin-bottom: 20px;
                 .views-col {
                     width: 30%;
                     margin-right: 5%;
-                    .col-3 {
-                        margin-right: 0%;
-                    }
+                    
                     position: relative;
                     .views-field-title {
                         .field-content {
@@ -74,6 +71,9 @@
                             text-align: center;
                         }
                     }
+                }
+                .col-3 {
+                    margin-right: 0;
                 }
             }
         }

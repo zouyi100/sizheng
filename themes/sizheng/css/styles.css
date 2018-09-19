@@ -1271,27 +1271,21 @@
   }
   /* line 32, ../sass/Pages/_xw.scss */
   .path-xw .view-xinwen .view-content .views-row {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;
   }
-  /* line 36, ../sass/Pages/_xw.scss */
+  /* line 35, ../sass/Pages/_xw.scss */
   .path-xw .view-xinwen .view-content .views-row .views-col {
     width: 30%;
     margin-right: 5%;
     position: relative;
   }
-  /* line 39, ../sass/Pages/_xw.scss */
-  .path-xw .view-xinwen .view-content .views-row .views-col .col-3 {
-    margin-right: 0%;
-  }
-  /* line 45, ../sass/Pages/_xw.scss */
+  /* line 42, ../sass/Pages/_xw.scss */
   .path-xw .view-xinwen .view-content .views-row .views-col .views-field-title .field-content a {
     color: #9e3c3a;
     font-size: 16px;
     border: none;
   }
-  /* line 53, ../sass/Pages/_xw.scss */
+  /* line 50, ../sass/Pages/_xw.scss */
   .path-xw .view-xinwen .view-content .views-row .views-col .views-field-created {
     box-sizing: border-box;
     position: absolute;
@@ -1302,7 +1296,7 @@
     background-color: #fff;
     padding: 0 3px 3px 3px;
   }
-  /* line 62, ../sass/Pages/_xw.scss */
+  /* line 59, ../sass/Pages/_xw.scss */
   .path-xw .view-xinwen .view-content .views-row .views-col .views-field-created .field-content {
     border: 1px solid #9e3c3a;
     display: block;
@@ -1315,6 +1309,10 @@
     display: table;
     padding: 8px 5px;
     text-align: center;
+  }
+  /* line 75, ../sass/Pages/_xw.scss */
+  .path-xw .view-xinwen .view-content .views-row .col-3 {
+    margin-right: 0;
   }
 }
 @media all and (max-width: 768px) {
