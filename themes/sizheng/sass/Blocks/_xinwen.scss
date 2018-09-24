@@ -9,7 +9,7 @@
             a {
                 color: #999;
                 border: none;
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         padding-right: 20px;
@@ -44,7 +44,7 @@
         }
         .views-slideshow-controls-top {
             width: 50%;
-            padding-left: 10px;
+            margin-left: -15px;
             box-sizing: border-box;
             max-width: 310px;
             .views_slideshow_pager_field_item {
@@ -56,10 +56,10 @@
                     border: none;
                     color: black;
                     line-height: 20px;
-                    font-size: 20px;
+                    font-size: 16px;
                     line-height: 20px;
                     display: block;
-                    padding-bottom: 20px;
+                    padding-bottom: 15px;
                 }
             }
             // float: right;
@@ -74,6 +74,7 @@
 
 @media all and (max-width: 768px) {
     .block-views-blockxinwen-block-mobile {
+        margin-bottom: 150px;
         margin-top: -15px;
         .view {
             position: relative;
@@ -107,7 +108,10 @@
         }
         .view-content {
             .views-row {
-                margin-top: -110px;
+                height: 260px;
+                min-height: 260px;
+                overflow: hidden;
+                // margin-top: -110px;
                 .views-col {
                     position: relative;
                     width: 100%;
@@ -131,7 +135,13 @@
                         padding-top: 15px;
                         padding-bottom: 0px;
                         span {
+                            display: block;
+                            width: 100%;
                             a {
+                                width: 100%;
+                                display: block;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
                                 color: #9e3c3a;
                                 font-size: 18px;
                                 border: none;

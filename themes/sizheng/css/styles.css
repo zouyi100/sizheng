@@ -424,7 +424,7 @@
   .block-views-blockxinwen-block-1 .more-link a {
     color: #999;
     border: none;
-    font-size: 14px;
+    font-size: 12px;
   }
   /* line 16, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-1 h2 {
@@ -458,7 +458,7 @@
   /* line 45, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-1 .views-slideshow-controls-top {
     width: 50%;
-    padding-left: 10px;
+    margin-left: -15px;
     box-sizing: border-box;
     max-width: 310px;
   }
@@ -471,10 +471,10 @@
     border: none;
     color: black;
     line-height: 20px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
   /* line 69, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-1 .views_slideshow_cycle_main {
@@ -484,14 +484,15 @@
 @media all and (max-width: 768px) {
   /* line 76, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile {
+    margin-bottom: 150px;
     margin-top: -15px;
     width: 100%;
   }
-  /* line 78, ../sass/Blocks/_xinwen.scss */
+  /* line 79, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view {
     position: relative;
   }
-  /* line 82, ../sass/Blocks/_xinwen.scss */
+  /* line 83, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile h2 {
     display: block;
     text-align: center;
@@ -501,14 +502,14 @@
     margin-bottom: 15px !important;
     color: #9e3c3a;
   }
-  /* line 95, ../sass/Blocks/_xinwen.scss */
+  /* line 96, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .more-link {
     position: absolute;
     top: -55px;
     width: 100%;
     height: 40px;
   }
-  /* line 100, ../sass/Blocks/_xinwen.scss */
+  /* line 101, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .more-link a {
     width: 100%;
     height: 100%;
@@ -516,16 +517,18 @@
     color: transparent;
     border: none;
   }
-  /* line 109, ../sass/Blocks/_xinwen.scss */
+  /* line 110, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row {
-    margin-top: -110px;
+    height: 260px;
+    min-height: 260px;
+    overflow: hidden;
   }
-  /* line 111, ../sass/Blocks/_xinwen.scss */
+  /* line 115, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col {
     position: relative;
     width: 100%;
   }
-  /* line 114, ../sass/Blocks/_xinwen.scss */
+  /* line 118, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field {
     padding-right: 15px;
     position: relative;
@@ -533,51 +536,60 @@
     width: 80%;
     background-color: #fff;
   }
-  /* line 121, ../sass/Blocks/_xinwen.scss */
+  /* line 125, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-field-tupian-450x480- {
     position: initial;
     top: 0;
     width: 100%;
     padding-right: 0;
   }
-  /* line 126, ../sass/Blocks/_xinwen.scss */
+  /* line 130, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-field-tupian-450x480- img {
     width: 100%;
   }
-  /* line 130, ../sass/Blocks/_xinwen.scss */
+  /* line 134, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-title {
     padding-top: 15px;
     padding-bottom: 0px;
   }
-  /* line 134, ../sass/Blocks/_xinwen.scss */
+  /* line 137, ../sass/Blocks/_xinwen.scss */
+  .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-title span {
+    display: block;
+    width: 100%;
+  }
+  /* line 140, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-title span a {
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     color: #9e3c3a;
     font-size: 18px;
     border: none;
     font-weight: bold;
   }
-  /* line 142, ../sass/Blocks/_xinwen.scss */
+  /* line 152, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-created {
     padding-bottom: 0px;
   }
-  /* line 144, ../sass/Blocks/_xinwen.scss */
+  /* line 154, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-created span {
     color: #999;
     font-size: 12px;
     font-weight: 400;
     font-family: "Gotham","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
   }
-  /* line 151, ../sass/Blocks/_xinwen.scss */
+  /* line 161, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-body {
     padding-bottom: 15px;
   }
-  /* line 153, ../sass/Blocks/_xinwen.scss */
+  /* line 163, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .views-row .views-col .views-field-body p {
     color: #777;
     font-size: 13px;
     margin: 0;
   }
-  /* line 161, ../sass/Blocks/_xinwen.scss */
+  /* line 171, ../sass/Blocks/_xinwen.scss */
   .block-views-blockxinwen-block-mobile .view-content .row-1 {
     margin-top: 0;
   }
@@ -716,7 +728,7 @@
   .block-views-blockchengguozhanshi-block-1 .more-link a {
     color: #999;
     border: none;
-    font-size: 14px;
+    font-size: 12px;
   }
   /* line 16, ../sass/Blocks/_chengguozhanshi.scss */
   .block-views-blockchengguozhanshi-block-1 h2 {
@@ -862,10 +874,10 @@
     background-position-x: right;
     background-position-y: 6px;
     background-size: 10%;
-    left: -80%;
+    left: -90%;
     transition: left 1s;
     padding-top: 10px;
-    width: 80%;
+    width: 90%;
     opacity: 1;
     height: 21px;
     padding-bottom: 10px;
@@ -1318,14 +1330,15 @@
 @media all and (max-width: 768px) {
   /* line 86, ../sass/Pages/_xw.scss */
   .path-xw .view-xinwen .views-row {
+    margin-bottom: 0px !important;
     margin-bottom: 0px;
     display: initial;
   }
-  /* line 87, ../sass/Pages/_xw.scss */
+  /* line 88, ../sass/Pages/_xw.scss */
   .path-xw .view-xinwen .views-row .views-col {
-    width: 100%;
-    margin-right: 0%;
-    margin-bottom: 10px;
+    width: 100% !important;
+    margin-right: 0% !important;
+    margin-bottom: 10px !important;
   }
 }
 @media all {

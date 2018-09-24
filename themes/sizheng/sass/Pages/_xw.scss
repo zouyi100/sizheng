@@ -84,10 +84,11 @@
     .path-xw {
         .view-xinwen {
             .views-row {
+                margin-bottom: 0px !important; 
                 .views-col {
-                    width: 100%;
-                    margin-right: 0%;
-                    margin-bottom: 10px;
+                    width: 100% !important;
+                    margin-right: 0% !important;
+                    margin-bottom: 10px !important;
                 }
                 margin-bottom: 0px;
                 display: initial;

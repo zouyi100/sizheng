@@ -787,7 +787,7 @@ $settings['entity_update_batch_size'] = 50;
 # }
 $databases['default']['default'] = array (
   'database' => 'sizheng',
-  'username' => 'root',
+  'username' => 'dev',
   'password' => '010503',
   'prefix' => '',
   'host' => 'localhost',
